@@ -1,4 +1,4 @@
-24646015827930416
+24649497932964027
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55202,6 +55202,13 @@ BVT-I-R003
 4
 4
 Custom_footprints
+BVT-I-R003_Reverse
+
+
+0
+4
+4
+Custom_footprints
 MCT6
 
 
@@ -55215,6 +55222,13 @@ STB19NF20
 0
 234
 3
+Custom_footprints
+TO-220-3_Vertical_Heat_Sink
+TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Vertical RM 2.54mm
+0
+5
+4
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
