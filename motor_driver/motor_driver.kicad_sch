@@ -2199,187 +2199,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_Shunt"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Shunt"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Shunt resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res shunt resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*Shunt*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Shunt_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Shunt_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diode:1N4007"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -3833,6 +3652,18 @@
 		(uuid "32ebd18d-4971-41fd-a8d6-11170da9ce68")
 	)
 	(junction
+		(at 224.79 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "349553a4-518a-4591-896f-5b235345b8d4")
+	)
+	(junction
+		(at 217.17 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34aa22ae-143e-4f29-8791-efb80830ea47")
+	)
+	(junction
 		(at 191.77 331.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3903,6 +3734,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46ab45d4-9116-4fb1-a201-8f6e0311b4b0")
+	)
+	(junction
+		(at 217.17 342.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ace3cdd-cf0c-4868-a955-34c33a5d8704")
 	)
 	(junction
 		(at 127 88.9)
@@ -4175,6 +4012,12 @@
 		(uuid "a7c13d32-a403-45ce-887b-f7108f6ea35d")
 	)
 	(junction
+		(at 224.79 342.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab545299-8c78-4079-a584-e3e07ae0d5bf")
+	)
+	(junction
 		(at 495.3 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4185,6 +4028,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad1b589a-f56f-413d-ba6d-809bc108b9ee")
+	)
+	(junction
+		(at 217.17 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "addaaa17-fe60-4766-93e1-74bc7d09a35d")
 	)
 	(junction
 		(at 279.4 256.54)
@@ -4251,6 +4100,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "babc2a22-cf32-476f-a236-9a62299051b4")
+	)
+	(junction
+		(at 224.79 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc5f7656-d714-4e46-94eb-ff60a51cac9b")
 	)
 	(junction
 		(at 148.59 229.87)
@@ -4946,16 +4801,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 223.52) (xy 224.79 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "154d3c00-94a0-44df-966f-7d69f6ef60cb")
-	)
-	(wire
-		(pts
 			(xy 74.93 81.28) (xy 95.25 81.28)
 		)
 		(stroke
@@ -5003,6 +4848,16 @@
 			(type default)
 		)
 		(uuid "1628e1e5-6e46-4c6b-aa1d-b7b50b29d745")
+	)
+	(wire
+		(pts
+			(xy 217.17 213.36) (xy 217.17 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1667b8f2-f4fe-4b75-91b1-97eb1d3fae91")
 	)
 	(wire
 		(pts
@@ -5166,6 +5021,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 227.33) (xy 233.68 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8efcc9-ebbb-4bea-89f6-c4c0107b76ec")
+	)
+	(wire
+		(pts
 			(xy 115.57 81.28) (xy 115.57 96.52)
 		)
 		(stroke
@@ -5216,7 +5081,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 107.95) (xy 224.79 90.17)
+			(xy 224.79 90.17) (xy 224.79 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5826,16 +5691,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 339.09) (xy 224.79 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "471cd395-1c66-4909-b8b2-cb8082dce00d")
-	)
-	(wire
-		(pts
 			(xy 107.95 342.9) (xy 102.87 342.9)
 		)
 		(stroke
@@ -5923,16 +5778,6 @@
 			(type default)
 		)
 		(uuid "4a2dfa4f-4c48-4f38-92e4-a8606014228c")
-	)
-	(wire
-		(pts
-			(xy 227.33 111.76) (xy 233.68 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a4e79fb-8d09-4e3d-b67d-feb8f6da57bf")
 	)
 	(wire
 		(pts
@@ -6046,17 +5891,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 223.52) (xy 219.71 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dfb193c-e6be-4009-b20b-5561e70f88f1")
-	)
-	(wire
-		(pts
-			(xy 219.71 213.36) (xy 226.06 213.36)
+			(xy 217.17 213.36) (xy 226.06 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6166,7 +6001,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 97.79) (xy 226.06 97.79)
+			(xy 217.17 97.79) (xy 226.06 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7036,7 +6871,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 107.95) (xy 219.71 97.79)
+			(xy 217.17 97.79) (xy 217.17 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7073,16 +6908,6 @@
 			(type default)
 		)
 		(uuid "85aaafed-5e13-4c19-a849-077c0cedb9ab")
-	)
-	(wire
-		(pts
-			(xy 227.33 342.9) (xy 233.68 342.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "860952ff-ad70-42dc-8227-bd66cfe89acb")
 	)
 	(wire
 		(pts
@@ -7126,7 +6951,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 339.09) (xy 219.71 328.93)
+			(xy 217.17 328.93) (xy 217.17 342.9)
 		)
 		(stroke
 			(width 0)
@@ -7723,6 +7548,16 @@
 			(type default)
 		)
 		(uuid "a3fec6da-6e0c-4263-905e-18b380d69a62")
+	)
+	(wire
+		(pts
+			(xy 224.79 111.76) (xy 233.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a485db03-1f02-43d6-b496-f62f0a252aba")
 	)
 	(wire
 		(pts
@@ -8406,6 +8241,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 321.31) (xy 224.79 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b5d3c7-16ea-4815-8e8f-faeba1c04502")
+	)
+	(wire
+		(pts
 			(xy 148.59 110.49) (xy 148.59 114.3)
 		)
 		(stroke
@@ -8876,6 +8721,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 205.74) (xy 224.79 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08f18cf-2bf0-4bd8-a97f-90d47d8c8bea")
+	)
+	(wire
+		(pts
 			(xy 248.92 196.85) (xy 248.92 203.2)
 		)
 		(stroke
@@ -9016,7 +8871,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 328.93) (xy 226.06 328.93)
+			(xy 217.17 328.93) (xy 226.06 328.93)
 		)
 		(stroke
 			(width 0)
@@ -9043,6 +8898,16 @@
 			(type default)
 		)
 		(uuid "e74e1e2f-6b99-456c-a75e-882ee305203c")
+	)
+	(wire
+		(pts
+			(xy 224.79 342.9) (xy 233.68 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87c6fcb-856a-4c47-9230-12c60884d922")
 	)
 	(wire
 		(pts
@@ -9443,16 +9308,6 @@
 			(type default)
 		)
 		(uuid "ff346796-58ed-4cec-ade4-3ed7e63e2951")
-	)
-	(wire
-		(pts
-			(xy 227.33 227.33) (xy 233.68 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff454850-ed15-4fa8-822c-735aba64b969")
 	)
 	(wire
 		(pts
@@ -18084,17 +17939,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Shunt")
-		(at 222.25 111.76 90)
+		(lib_id "Device:R")
+		(at 220.98 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "957c4243-5117-4eb4-8139-21289a0de271")
 		(property "Reference" "R12"
-			(at 222.25 115.57 90)
+			(at 223.52 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18102,7 +17956,7 @@
 			)
 		)
 		(property "Value" "R_Shunt"
-			(at 222.25 118.11 90)
+			(at 220.98 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18110,7 +17964,7 @@
 			)
 		)
 		(property "Footprint" "Custom_footprints:BVT-I-R003"
-			(at 222.25 113.538 90)
+			(at 220.98 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18119,7 +17973,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 111.76 0)
+			(at 220.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18127,26 +17981,20 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Shunt resistor"
-			(at 222.25 111.76 0)
+		(property "Description" "Resistor"
+			(at 220.98 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "5eb11cde-0106-4946-bbcc-9a8cf70bf73e")
 		)
 		(pin "1"
 			(uuid "68673bdc-412b-41e2-a4ea-1f7dc6a3832b")
 		)
 		(pin "2"
 			(uuid "075278f9-201c-413c-b9e6-dcbd094441b9")
-		)
-		(pin "3"
-			(uuid "90d0e6c9-f006-411d-bb0a-3ddfb967eb48")
 		)
 		(instances
 			(project ""
@@ -19755,8 +19603,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Shunt")
-		(at 222.25 342.9 90)
+		(lib_id "Device:R")
+		(at 220.98 342.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19765,7 +19613,7 @@
 		(fields_autoplaced yes)
 		(uuid "b48c6da2-0482-4580-a0e9-78bda0e0e16d")
 		(property "Reference" "R44"
-			(at 222.25 346.71 90)
+			(at 220.98 336.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19773,7 +19621,7 @@
 			)
 		)
 		(property "Value" "R_Shunt"
-			(at 222.25 349.25 90)
+			(at 220.98 339.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19781,7 +19629,7 @@
 			)
 		)
 		(property "Footprint" "Custom_footprints:BVT-I-R003"
-			(at 222.25 344.678 90)
+			(at 220.98 344.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19790,7 +19638,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 342.9 0)
+			(at 220.98 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19798,26 +19646,20 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Shunt resistor"
-			(at 222.25 342.9 0)
+		(property "Description" "Resistor"
+			(at 220.98 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "75da2b07-5759-450c-9632-7a46f30ad275")
 		)
 		(pin "1"
 			(uuid "4063eae7-5f56-4eac-bd0c-ea8770b7389d")
 		)
 		(pin "2"
 			(uuid "00f74f5d-6ac1-4ee0-a02f-459023d2878c")
-		)
-		(pin "3"
-			(uuid "59332ee0-add9-422d-8f8e-4d519e0b7216")
 		)
 		(instances
 			(project "motor_driver"
@@ -20424,8 +20266,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Shunt")
-		(at 222.25 227.33 90)
+		(lib_id "Device:R")
+		(at 220.98 227.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20434,7 +20276,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf21cd07-31c7-4f26-bf35-6405e444d29c")
 		(property "Reference" "R28"
-			(at 222.25 231.14 90)
+			(at 220.98 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20442,7 +20284,7 @@
 			)
 		)
 		(property "Value" "R_Shunt"
-			(at 222.25 233.68 90)
+			(at 220.98 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20450,7 +20292,7 @@
 			)
 		)
 		(property "Footprint" "Custom_footprints:BVT-I-R003_Reverse"
-			(at 222.25 229.108 90)
+			(at 220.98 229.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20459,7 +20301,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 227.33 0)
+			(at 220.98 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20467,8 +20309,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Shunt resistor"
-			(at 222.25 227.33 0)
+		(property "Description" "Resistor"
+			(at 220.98 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20476,17 +20318,11 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
+		(pin "2"
 			(uuid "d4633e0a-072e-4179-9d16-cfec68d09e4d")
 		)
 		(pin "1"
 			(uuid "7912d60d-d2b8-4bd8-9fc4-55d96e3f9044")
-		)
-		(pin "2"
-			(uuid "250acb51-fc7e-4f3e-ba08-14a4fc9e3437")
-		)
-		(pin "3"
-			(uuid "83a218b4-ab6a-41c0-aebd-fb2345c83578")
 		)
 		(instances
 			(project "motor_driver"
