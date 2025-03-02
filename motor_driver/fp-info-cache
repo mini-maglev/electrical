@@ -1,4 +1,4 @@
-24649498152896874
+24656462769007334
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55216,6 +55216,13 @@ MCT6
 8
 8
 Custom_footprints
+SOIC-8_7.5x5.85mm_P1.27mm
+SOIC, 8 Pin (http://www.ti.com/lit/ml/mpds382b/mpds382b.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+Custom_footprints
 STB19NF20
 
 
@@ -55228,6 +55235,27 @@ TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pd
 TO-220-3 Vertical RM 2.54mm
 0
 5
+3
+Custom_footprints
+TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
+terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
+THT terminal block MaiXu MX126-5.0-02P pitch 5mm size 10.5x7.8mm drill 1.3mm pad 2.8mm
+0
+2
+2
+Custom_footprints
+TerminalBlock_MetzConnect_Type067_RT01902HDWC_1x02_P10.00mm_Horizontal
+terminal block Metz Connect Type067_RT01902HDWC, 2 pins, pitch 10mm, size 15.8x8.2mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310671_RT019xxHDWC_OFF-023605N.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_MetzConnect
+THT terminal block Metz Connect Type067_RT01902HDWC pitch 10mm size 15.8x8.2mm^2 drill 1.3mm pad 2.6mm
+0
+2
+2
+Custom_footprints
+TerminalBlock_MetzConnect_Type067_RT01903HDWC_1x03_P10.00mm_Horizontal
+terminal block Metz Connect Type067_RT01903HDWC, 3 pins, pitch 10mm, size 25.8x8.2mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310671_RT019xxHDWC_OFF-023605N.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_MetzConnect
+THT terminal block Metz Connect Type067_RT01903HDWC pitch 10mm size 25.8x8.2mm^2 drill 1.3mm pad 2.6mm
+0
+3
 3
 Diode_SMD
 D_0201_0603Metric

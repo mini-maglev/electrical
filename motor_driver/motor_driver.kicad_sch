@@ -9976,7 +9976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm"
+		(property "Footprint" "Custom_footprints:SOIC-8_7.5x5.85mm_P1.27mm"
 			(at 251.46 210.82 0)
 			(effects
 				(font
@@ -13021,7 +13021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type067_RT01902HDWC_1x02_P10.00mm_Horizontal"
+		(property "Footprint" "Custom_footprints:TerminalBlock_MetzConnect_Type067_RT01902HDWC_1x02_P10.00mm_Horizontal"
 			(at 403.86 77.47 0)
 			(effects
 				(font
@@ -16495,7 +16495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type067_RT01903HDWC_1x03_P10.00mm_Horizontal"
+		(property "Footprint" "Custom_footprints:TerminalBlock_MetzConnect_Type067_RT01903HDWC_1x03_P10.00mm_Horizontal"
 			(at 504.19 110.49 0)
 			(effects
 				(font
@@ -18099,7 +18099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm"
+		(property "Footprint" "Custom_footprints:SOIC-8_7.5x5.85mm_P1.27mm"
 			(at 251.46 326.39 0)
 			(effects
 				(font
@@ -19560,7 +19560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "Custom_footprints:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 445.77 77.47 0)
 			(effects
 				(font
@@ -21685,7 +21685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm"
+		(property "Footprint" "Custom_footprints:SOIC-8_7.5x5.85mm_P1.27mm"
 			(at 251.46 95.25 0)
 			(effects
 				(font
