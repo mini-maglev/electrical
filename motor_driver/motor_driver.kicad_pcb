@@ -33509,7 +33509,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f2910ad4-f7e7-4be7-8f68-90b2886e0c01")
 	)
-	(gr_text "AMY LI\nFEB. 2025"
+	(gr_text "AMY L.\nFEB. 2025"
 		(at 178.25 62.2 0)
 		(layer "F.SilkS")
 		(uuid "013795a7-fc68-40b4-affd-78532d3de28e")
